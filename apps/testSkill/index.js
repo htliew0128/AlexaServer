@@ -10,7 +10,7 @@ app.launch(function(req,res) {
 });
 app.intent('GetExceptionIntent', {
 		"slots":{"SHIFT":"LITERAL"}
-		,"utterances":["{Get|Obtain|Find|Retrieve} {today|tomorrow|yesterday|past due|current shift|next shift|SHIFT} {exception|exceptions}"]
+		,"utterances":["Get {today|tomorrow|yesterday|past due|current shift|next shift|SHIFT} {exception|exceptions}"]
 	},function(req,res) {
 		res.say('You have two exceptions '+req.slot('SHIFT'));
 	}
