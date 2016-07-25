@@ -1,0 +1,28 @@
+{
+  "name": "saynumber",
+  "version": "1.0.0",
+  "description": "Say Number Alexa Test Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htliew0128/AlexaSayNumber.git"
+  },
+  "keywords": [
+    "Alexa",
+    "Say",
+    "Number",
+    "App"
+  ],
+  "author": "hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htliew0128/AlexaSayNumber/issues"
+  },
+  "homepage": "https://github.com/htliew0128/AlexaSayNumber#readme",
+  "dependencies": {
+    "alexa-app": "^2.3.4"
+  }
+}

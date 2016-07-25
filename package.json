@@ -1,0 +1,30 @@
+{
+  "name": "alexatest",
+  "version": "1.0.0",
+  "description": "Alexa Test App",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-app-server": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htliew0128/AlexaTest.git"
+  },
+  "keywords": [
+    "alexa",
+    "test",
+    "server",
+    "echo"
+  ],
+  "author": "hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htliew0128/AlexaTest/issues"
+  },
+  "homepage": "https://github.com/htliew0128/AlexaTest#readme"
+}
