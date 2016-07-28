@@ -20,7 +20,7 @@ OracleDataHelper.prototype.getException = function(currentDate) {
   var pword = 'Welcome1';
   var options = {
     method: 'GET',
-    uri: ENDPOINT + currentDate,
+    url: ENDPOINT + currentDate,
     resolveWithFullResponse: true,
     json: true,
 	headers: {
