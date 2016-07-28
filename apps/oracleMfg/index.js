@@ -45,7 +45,7 @@ app.intent('getException',
       }).catch(function(err) {
         console.log(err.statusCode);
         var prompt = 'There is no exception on shop floor';
-        response.say(prompt).reprompt(reprompt).shouldEndSession(false).send();
+        response.say(prompt).reprompt('error msg :' + err).shouldEndSession(false).send();
       });
       return false;
   }
