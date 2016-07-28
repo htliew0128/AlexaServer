@@ -1,0 +1,17 @@
+{
+  "name": "oracle_manufacturing",
+  "version": "1.0.0",
+  "description": "Alexa POC for Oracle Manufacturing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hong liew",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "lodash": "^4.14.0",
+    "request": "^2.74.0",
+    "request-promise": "^4.0.2"
+  }
+}

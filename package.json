@@ -4,6 +4,7 @@
   "description": "Alexa Test App",
   "main": "index.js",
   "dependencies": {
+    "alexa-app": "^2.3.4",
     "alexa-app-server": "^2.2.4"
   },
   "devDependencies": {},
