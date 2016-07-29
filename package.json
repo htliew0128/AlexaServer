@@ -2,7 +2,7 @@
   "name": "alexatest",
   "version": "1.0.0",
   "description": "Alexa Test App",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "alexa-app": "^2.3.4",
     "alexa-app-server": "^2.2.4"
